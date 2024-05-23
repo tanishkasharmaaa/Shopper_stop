@@ -178,7 +178,7 @@ setData(update)
           </ModalBody>
 
           <ModalFooter>
-            <Button  colorScheme='blue' mr={3} onClick={()=>navigate('/home')}>
+            <Button  colorScheme='blue' mr={3} onClick={()=>navigate('/products')}>
               Go back to products page
             </Button>
             
