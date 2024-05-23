@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+display: flex;
+justify-content: space-around;
+
+
+}
+
+
+.image{
+width: 200px;
+height: 200px;
+
+}
+#image{
+    width: 200px;
+height: 200px;
+}
+#paymentPage{
+    display: grid;
+    grid-template-columns: minmax(70%, 1fr) 1fr;
+    gap: 16px; /* Add some gap between columns if needed */
+    padding: 16px; /* Optional padding */
+}
+.Cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-gap: 10px;
+ 
+
+}
